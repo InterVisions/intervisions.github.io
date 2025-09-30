@@ -1,4 +1,4 @@
-### InterVsisions website repo 
+### InterVisions website repo 
 - uses the [Just the Docs] theme;
 - can be built and published on [GitHub Pages];
 
