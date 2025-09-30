@@ -6,10 +6,5 @@ url: https://intervisions.github.io
 
 baseurl: ""
 
-footer: >-
-  <img src="{{ '/assets/images/eulogo.png' | relative_url }}" alt="EU emblem" style="height:1.2em; vertical-align:middle; margin-right:0.5em;">
-  <span>© {{ site.time | date: '%Y' }} — {{ site.title }}.</span><br/>
-  <span>Funded by the European Union under the CERV programme (Call: CERV-2024-CHAR-LITI-CHARTER, Project ID 101214711). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or CERV. Neither the European Union nor the granting authority can be held responsible for them.</span>
-
 #aux_links:
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
