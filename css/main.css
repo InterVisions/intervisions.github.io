@@ -1291,6 +1291,149 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   margin-top: 1rem;
 }
 
+/* Tool 2 — Audit Tools layout */
+.tool2-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool2-intro {
+  max-width: 55%;
+  margin-bottom: 2rem;
+}
+
+.tool2-intro p {
+  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  line-height: 1.7;
+  color: inherit;
+  margin-bottom: 1rem;
+}
+
+.tool2-methodology {
+  margin-left: 30%;
+  border-left: 2px solid currentColor;
+  padding-left: 2rem;
+  margin-bottom: 0;
+}
+
+.tool2-methodology h4 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.tool2-methodology p {
+  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  line-height: 1.7;
+}
+
+.tool2-cta-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  background: var(--black);
+  color: var(--white);
+  margin: 2.5rem -1.5rem -2.5rem;
+  padding: 2.5rem 1.5rem;
+}
+
+.tool2-cta-headline {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.tool2-repo-card {
+  background: #111;
+  border: 1px solid #444;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  font-family: monospace;
+}
+
+.tool2-repo-header {
+  background: #222;
+  border-bottom: 1px solid #444;
+  padding: 0.45rem 0.75rem;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.tool2-repo-header span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #555;
+  display: inline-block;
+}
+
+.tool2-repo-body {
+  padding: 0.75rem;
+}
+
+.tool2-repo-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--yellow);
+  margin-bottom: 0.6rem;
+}
+
+.tool2-repo-line {
+  font-size: 0.72rem;
+  color: #aaa;
+  line-height: 1.7;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tool2-cta-main a {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--white);
+  border-bottom: 1px solid currentColor;
+}
+
+.tool2-cta-details p {
+  font-size: clamp(0.85rem, 1.1vw, 1rem);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.tool2-different-label {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tool2-cta-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.tool2-cta-details ul li {
+  font-size: clamp(0.85rem, 1.1vw, 1rem);
+  line-height: 1.5;
+  padding-left: 1.75rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.tool2-cta-details ul li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+}
+
 /* ============================================
    RESPONSIVE
    ============================================ */
@@ -1314,6 +1457,9 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .tool-content { grid-template-columns: 1fr; }
   .tool1-text { padding-left: 0; }
   .tool1-image-strip { grid-template-columns: 1fr; margin: 1.5rem -1.5rem; }
+  .tool2-intro { max-width: 100%; }
+  .tool2-methodology { margin-left: 0; }
+  .tool2-cta-strip { grid-template-columns: 1fr; }
   .members-grid { grid-template-columns: 1fr; }
   .member-card--consortium { grid-template-columns: 1fr; }
   .members-grid--advisory { grid-template-columns: 1fr; }
