@@ -1434,6 +1434,101 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   left: 0;
 }
 
+/* Tool 3 — Participatory Workshops layout */
+.tool3-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool3-intro {
+  max-width: 55%;
+  margin-bottom: 2rem;
+}
+
+.tool3-intro p {
+  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  line-height: 1.7;
+  color: inherit;
+  margin-bottom: 1rem;
+}
+
+.tool3-carousel {
+  display: flex;
+  align-items: center;
+  margin: 0 -1.5rem 2.5rem;
+}
+
+.carousel-track {
+  flex: 1;
+  overflow: hidden;
+}
+
+.carousel-track img {
+  width: 100%;
+  height: clamp(260px, 40vw, 520px);
+  object-fit: cover;
+  display: none;
+}
+
+.carousel-track img.carousel-active {
+  display: block;
+}
+
+.carousel-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+  color: inherit;
+  flex-shrink: 0;
+  line-height: 1;
+  transition: opacity 0.15s;
+}
+
+.carousel-btn:hover { opacity: 0.5; }
+
+.tool3-principles {
+  padding-left: 40%;
+}
+
+.tool3-principles p {
+  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  line-height: 1.7;
+  color: inherit;
+  margin-bottom: 1rem;
+}
+
+.tool3-principles h4 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.tool3-principles ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tool3-principles ul li {
+  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  line-height: 1.6;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.tool3-principles ul li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+}
+
 /* ============================================
    RESPONSIVE
    ============================================ */
@@ -1460,6 +1555,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .tool2-intro { max-width: 100%; }
   .tool2-methodology { margin-left: 0; }
   .tool2-cta-strip { grid-template-columns: 1fr; }
+  .tool3-intro { max-width: 100%; }
+  .tool3-principles { padding-left: 0; }
   .members-grid { grid-template-columns: 1fr; }
   .member-card--consortium { grid-template-columns: 1fr; }
   .members-grid--advisory { grid-template-columns: 1fr; }
