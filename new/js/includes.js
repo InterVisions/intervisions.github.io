@@ -133,19 +133,35 @@ function initContactForm() {
   });
 }
 
-function initVideo() {
-  const videoEl = document.querySelector('.video-player');
-  const playBtn = document.getElementById('videoPlayBtn');
-  const overlay = document.getElementById('videoOverlay');
-  if (videoEl && playBtn && overlay) {
-    playBtn.addEventListener('click', () => {
-      videoEl.play();
-      overlay.style.display = 'none';
-    });
-    videoEl.addEventListener('ended', () => {
-      overlay.style.display = 'flex';
-    });
-  }
+function initVideos() {
+  // Select all video play buttons and video elements
+  const videos = document.querySelectorAll('.video-player');
+
+	videos.forEach((videoEl, index) => {
+    // Find the corresponding play button and overlay for this video
+    const playBtn = videoEl.closest('.video-wrapper').querySelector('.video-play-btn');
+    const overlay = videoEl.closest('.video-wrapper').querySelector('.video-overlay');
+
+		// If all elements exist, add the event listeners
+    if (playBtn && overlay) {
+      // Play video and hide overlay when the play button is clicked
+      playBtn.addEventListener('click', () => {
+        videoEl.play();
+        overlay.style.display = 'none';
+      });
+
+      // Show overlay again when the video ends
+      videoEl.addEventListener('ended', () => {
+        overlay.style.display = 'flex';
+      });
+
+      // Optional: Hide the overlay when the video starts playing
+      videoEl.addEventListener('play', () => {
+        overlay.style.display = 'none';
+      });
+    }
+  });
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
