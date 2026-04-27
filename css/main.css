@@ -972,16 +972,26 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
    ============================================ */
 .page-hero {
   background: var(--black);
-  padding-top: calc(60px + clamp(3rem, 6vw, 4rem));
-  padding-bottom: clamp(2.5rem, 5vw, 4rem);
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  padding-top: calc(60px + clamp(3rem, 6vw, 5rem));
+  padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.page-hero .container {
+  max-width: 100%;
+  padding: 0 clamp(1.25rem, 4vw, 3rem);
+  width: 100%;
 }
 
 .page-hero p {
   color: var(--white);
-  font-size: clamp(1.3rem, 3.5vw, 2.2rem);
-  line-height: 1.35;
-  max-width: 24ch;
-  font-weight: 400;
+  font-size: clamp(2.1rem, 3.75vw, 3rem);
+  font-weight: 300;
+  line-height: 1.4;
+  margin-left: clamp(5rem, 21vw, 15rem);
+  max-width: 55%;
 }
 
 /* ============================================
@@ -1154,6 +1164,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
    ============================================ */
 @media (max-width: 768px) {
   .hero-description { max-width: 100%; margin-left: 0; }
+  .page-hero p { max-width: 100%; margin-left: 0; }
   .hero-callout { width: 100%; align-self: stretch; }
   .form-columns { grid-template-columns: 1fr; }
   .section-header { grid-template-columns: 1fr; gap: 1rem; }
