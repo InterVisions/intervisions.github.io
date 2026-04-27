@@ -176,6 +176,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initAccordions();
   openHashAccordion();
   window.addEventListener('hashchange', openHashAccordion);
-  initVideo();
+  initVideos();
   initContactForm();
 });
