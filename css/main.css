@@ -1121,11 +1121,13 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .member-card--consortium .member-bio {
   display: block;
   overflow: visible;
-  -webkit-line-clamp: unset;
   flex: 1;
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
+.member-card--consortium .member-bio p { display: none; }
+.member-card--consortium .member-bio p:first-child { display: block; }
+.member-card--consortium .member-bio.expanded p { display: block; }
 
 /* Advisory / Working Groups: 2 per row, no photo, stacked */
 .members-grid--advisory {
