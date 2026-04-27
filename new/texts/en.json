@@ -23,11 +23,8 @@
   "key-aspects-intro": "Explore the core concepts that guide the InterVisions project — from understanding how AI systems reproduce bias, to why an intersectional approach is essential, to the role of participation in shaping fairer technologies.",
 
   "accordion-1-title": "Understanding AI <strong>Biases</strong>",
-  "accordion-1-content": "AI systems that process language and images are trained on large datasets reflecting existing social structures. These systems can reproduce — and in some cases amplify — biases related to gender, race, class, ability, and other axes of inequality. Understanding where these biases originate and how they manifest is the first step toward building fairer technologies.",
   "accordion-2-title": "Why <strong>Intersectionality</strong> Is Key in AI",
-  "accordion-2-content": "Intersectionality recognizes that people's experiences are shaped by multiple overlapping identities and systems of power. In AI, this means that bias doesn't affect everyone equally — a system may disadvantage someone not just because of their gender, but because of the combination of gender, ethnicity, age, and other factors. Intersectional analysis makes these compounding effects visible.",
   "accordion-3-title": "<strong>Participation</strong> as a Foundation",
-  "accordion-3-content": "Technical solutions alone cannot address the social dimensions of AI bias. InterVisions places participation at the center of its methodology — working with affected communities to ensure that the tools and frameworks developed reflect real experiences, not just technical criteria. Participatory approaches build trust, generate relevant knowledge, and distribute the capacity to audit and challenge AI systems.",
 
   "tools-label": "Tools",
   "tools-intro": "Four tools created by the InterVisions Project, designed to integrate an intersectional perspective into different areas of action. Each tool offers specific methodologies for analysis, evaluation, and participation.",

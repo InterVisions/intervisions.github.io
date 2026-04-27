@@ -23,11 +23,8 @@
   "key-aspects-intro": "Explora los conceptos fundamentales que guían el proyecto InterVisions — desde comprender cómo los sistemas de IA reproducen sesgos, hasta por qué un enfoque interseccional es esencial, y el papel de la participación en la creación de tecnologías más justas.",
 
   "accordion-1-title": "Entendiendo los <strong>Sesgos</strong> de la IA",
-  "accordion-1-content": "Los sistemas de IA que procesan lenguaje e imágenes se entrenan con grandes conjuntos de datos que reflejan las estructuras sociales existentes. Estos sistemas pueden reproducir — y en algunos casos amplificar — sesgos relacionados con el género, la raza, la clase, la capacidad y otros ejes de desigualdad. Comprender de dónde provienen estos sesgos y cómo se manifiestan es el primer paso hacia la construcción de tecnologías más justas.",
   "accordion-2-title": "Por Qué la <strong>Interseccionalidad</strong> es Clave en la IA",
-  "accordion-2-content": "La interseccionalidad reconoce que las experiencias de las personas están conformadas por múltiples identidades superpuestas y sistemas de poder. En la IA, esto significa que el sesgo no afecta a todos por igual — un sistema puede perjudicar a alguien no solo por su género, sino por la combinación de género, etnia, edad y otros factores. El análisis interseccional hace visibles estos efectos acumulados.",
   "accordion-3-title": "La <strong>Participación</strong> como Fundamento",
-  "accordion-3-content": "Las soluciones técnicas por sí solas no pueden abordar las dimensiones sociales del sesgo de la IA. InterVisions coloca la participación en el centro de su metodología — trabajando con las comunidades afectadas para garantizar que las herramientas y marcos desarrollados reflejen experiencias reales, no solo criterios técnicos. Los enfoques participativos generan confianza, producen conocimiento relevante y distribuyen la capacidad de auditar y desafiar los sistemas de IA.",
 
   "tools-label": "Herramientas",
   "tools-intro": "Cuatro herramientas creadas por el Proyecto InterVisions, diseñadas para integrar una perspectiva interseccional en diferentes áreas de acción. Cada herramienta ofrece metodologías específicas para el análisis, la evaluación y la participación.",

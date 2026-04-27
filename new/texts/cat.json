@@ -23,11 +23,8 @@
   "key-aspects-intro": "Explora els conceptes fonamentals que guien el projecte InterVisions — des de comprendre com els sistemes d'IA reprodueixen biaixos, fins a per què un enfocament interseccional és essencial, i el paper de la participació en la creació de tecnologies més justes.",
 
   "accordion-1-title": "Comprendre els <strong>Biaixos</strong> de la IA",
-  "accordion-1-content": "Els sistemes d'IA que processen llenguatge i imatges s'entrenen amb grans conjunts de dades que reflecteixen les estructures socials existents. Aquests sistemes poden reproduir — i en alguns casos amplificar — biaixos relacionats amb el gènere, la raça, la classe, la capacitat i altres eixos de desigualtat. Comprendre d'on provenen aquests biaixos i com es manifesten és el primer pas cap a la construcció de tecnologies més justes.",
   "accordion-2-title": "Per Què la <strong>Interseccionalitat</strong> és Clau en la IA",
-  "accordion-2-content": "La interseccionalitat reconeix que les experiències de les persones estan conformades per múltiples identitats superposades i sistemes de poder. En la IA, això significa que el biaix no afecta tothom de la mateixa manera — un sistema pot perjudicar algú no sols pel seu gènere, sinó per la combinació de gènere, ètnia, edat i altres factors. L'anàlisi interseccional fa visibles aquests efectes acumulats.",
   "accordion-3-title": "La <strong>Participació</strong> com a Fonament",
-  "accordion-3-content": "Les solucions tècniques per si soles no poden abordar les dimensions socials del biaix de la IA. InterVisions col·loca la participació al centre de la seva metodologia — treballant amb les comunitats afectades per garantir que les eines i els marcs desenvolupats reflecteixin experiències reals, no sols criteris tècnics. Els enfocaments participatius creen confiança, generen coneixement rellevant i distribueixen la capacitat d'auditar i desafiar els sistemes d'IA.",
 
   "tools-label": "Eines",
   "tools-intro": "Quatre eines creades pel Projecte InterVisions, dissenyades per integrar una perspectiva interseccional en diferents àrees d'acció. Cada eina ofereix metodologies específiques per a l'anàlisi, l'avaluació i la participació.",
