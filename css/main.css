@@ -299,7 +299,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   font-size: 0.75rem;
   text-decoration: none;
   margin-top: auto;
-  padding-top: 2rem;
+  padding-top: 6rem;
   transition: color 0.2s;
 }
 .menu-privacy-link:hover { color: var(--white); }
@@ -962,7 +962,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   font-size: clamp(0.75rem, 1vw, 0.85rem);
   text-decoration: none;
   margin-top: auto;
-  padding-top: 2rem;
+  padding-top: 6rem;
   transition: color 0.2s;
 }
 .footer-privacy-link:hover { color: var(--white); }
@@ -1249,6 +1249,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool1-text {
   padding-left: 40%;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
 }
 
 .tool1-text p {
@@ -1259,8 +1261,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .tool1-text h4 {
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
@@ -1300,6 +1302,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .tool2-intro {
   max-width: 55%;
   padding-left: 8%;
+  padding-top: 6rem;
   margin-bottom: 2rem;
 }
 
@@ -1311,18 +1314,20 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .tool2-methodology {
-  margin-left: 30%;
-  max-width: 35%;
+  margin-left: auto;
+  margin-right: 8%;
+  max-width: 48%;
   border-left: 2px solid currentColor;
   border-right: 2px solid currentColor;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-bottom: 4rem;
   margin-bottom: 0;
 }
 
 .tool2-methodology h4 {
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
@@ -1447,6 +1452,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .tool3-intro {
   max-width: 55%;
   padding-left: 8%;
+  padding-top: 6rem;
   margin-bottom: 2rem;
 }
 
@@ -1496,6 +1502,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool3-principles {
   padding-left: 40%;
+  padding-bottom: 4rem;
 }
 
 .tool3-principles p {
@@ -1506,8 +1513,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .tool3-principles h4 {
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
@@ -1543,6 +1550,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .tool4-intro {
   max-width: 55%;
   padding-left: 8%;
+  padding-top: 6rem;
   margin-bottom: 2rem;
 }
 
@@ -1554,8 +1562,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .tool4-tagline {
-  font-size: 0.8rem !important;
-  font-weight: 700;
+  font-size: 2.4rem !important;
+  font-weight: 400;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 1.25rem !important;
