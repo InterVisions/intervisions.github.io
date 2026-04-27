@@ -22,9 +22,9 @@
   --blue-dark:  #3356a3;
 
   /* Accordion colors (matching design) */
-  --acc-1: var(--pink);
-  --acc-2: var(--green);
-  --acc-3: var(--yellow);
+  --acc-1: var(--green);
+  --acc-2: var(--yellow);
+  --acc-3: var(--pink);
   --acc-4: var(--blue-light);
 
   /* Typography */
@@ -529,7 +529,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   font-size: 1.1rem;
   line-height: 1.75;
   max-width: 70ch;
-  color: #333;
+  color: var(--black);
 }
 
 /* Accordion color variants */
@@ -1002,11 +1002,15 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   padding: var(--section-pad) 0;
 }
 
+.accordion-section {
+  background: var(--black);
+}
+
 /* Team member cards in expanded accordion */
 .org-group {
   padding: 2rem 1.5rem;
-  background: var(--off-white);
-  border-top: var(--border);
+  background: var(--bg);
+  border-top: 1px solid rgba(0,0,0,0.15);
 }
 
 .org-title {
@@ -1062,7 +1066,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .member-bio {
   font-size: 0.78rem;
   line-height: 1.6;
-  color: #444;
+  color: var(--black);
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
