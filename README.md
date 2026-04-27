@@ -1,23 +1,65 @@
-### InterVisions website repo 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
+# InterVisions Website
 
-### Licensing and Attribution
+Static HTML/CSS/JS website for the InterVisions EU-funded project.
 
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
+## Structure
 
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
+```
+intervisions/
+├── index.html              # Homepage
+├── css/
+│   └── main.css            # All styles
+├── js/
+│   ├── includes.js         # Loads shared nav/footer
+│   └── main.js             # Accordion, menu (legacy)
+├── includes/
+│   ├── nav.html            # Shared navigation + menu overlay
+│   └── footer.html         # Shared footer
+├── images/
+│   └── logo.jpg            # InterVisions logo
+└── pages/
+    ├── tools.html          # Our Tools page
+    ├── team.html           # Our Team page
+    └── privacy.html        # Privacy policy
+```
 
-----
+## Local Development
 
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+Because the site uses `fetch()` to load shared includes, you need a local server:
+
+```bash
+# Python 3
+python3 -m http.server 8000
+
+# Node (npx)
+npx serve .
+
+# VS Code
+# Install "Live Server" extension, then right-click index.html → Open with Live Server
+```
+
+Then open `http://localhost:8000`
+
+## GitHub Pages
+
+Push to a `gh-pages` branch or configure GitHub Pages to serve from `main` branch root. The site will work as-is — no build step needed.
+
+## Key Design Decisions
+
+- **Colors**: Brand palette from design spec — `#b3fc50` (lime), `#f6f262` (yellow), `#f9b6d7` (pink), `#717cf8` (periwinkle), `#ea5054` (red), `#3356a3` (blue), `#f8c5d4` (light pink), `#c7d8c4` (mint)
+- **Font**: Space Grotesk (Google Fonts)
+- **Shared nav/footer**: Loaded via `fetch()` from `includes/` — no build tool needed
+- **Accordion**: CSS + minimal JS, color-coded per section
+- **Community form**: Uses Formspree — replace `YOUR_FORM_ID` in `index.html` with your actual Formspree endpoint
+
+## TODO
+
+- [ ] Replace `[Team photo]` placeholder in Tools section with real image
+- [ ] Add real team member photos to `images/team/`
+- [ ] Replace Formspree form ID in `index.html`
+- [ ] Add real resource cards content
+- [ ] Add video embed (replace video placeholder in homepage)
+- [ ] Add real EU logo image
+- [ ] Add Open Graph / meta tags for social sharing
+- [ ] Add `favicon.ico`
+- [ ] Translate to CAT and CAST (duplicate pages or use i18n JS library)
