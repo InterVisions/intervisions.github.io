@@ -1241,6 +1241,44 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 .tool-cta a:hover { background: var(--yellow); }
 
+/* Tool 1 — Guidelines layout */
+.tool1-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool1-text {
+  padding-left: 40%;
+}
+
+.tool1-text p {
+  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  line-height: 1.7;
+  color: inherit;
+  margin-bottom: 1rem;
+}
+
+.tool1-text h4 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.tool1-image-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  margin: 2.5rem -1.5rem;
+}
+
+.tool1-image-strip img {
+  width: 100%;
+  display: block;
+}
+
 /* ============================================
    RESPONSIVE
    ============================================ */
@@ -1262,6 +1300,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .menu-body { grid-template-columns: 1fr; }
   .menu-col:first-child { border-right: none; border-bottom: 1px solid #333; }
   .tool-content { grid-template-columns: 1fr; }
+  .tool1-text { padding-left: 0; }
+  .tool1-image-strip { grid-template-columns: 1fr; margin: 1.5rem -1.5rem; }
   .members-grid { grid-template-columns: 1fr; }
   .member-card--consortium { grid-template-columns: 1fr; }
   .members-grid--advisory { grid-template-columns: 1fr; }
