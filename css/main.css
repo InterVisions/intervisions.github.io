@@ -1299,6 +1299,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool2-intro {
   max-width: 55%;
+  padding-left: 8%;
   margin-bottom: 2rem;
 }
 
@@ -1311,8 +1312,11 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool2-methodology {
   margin-left: 30%;
+  max-width: 35%;
   border-left: 2px solid currentColor;
+  border-right: 2px solid currentColor;
   padding-left: 2rem;
+  padding-right: 2rem;
   margin-bottom: 0;
 }
 
@@ -1442,6 +1446,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool3-intro {
   max-width: 55%;
+  padding-left: 8%;
   margin-bottom: 2rem;
 }
 
@@ -1529,6 +1534,96 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   left: 0;
 }
 
+/* Tool 4 — Benchmark layout */
+.tool4-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool4-intro {
+  max-width: 55%;
+  padding-left: 8%;
+  margin-bottom: 2rem;
+}
+
+.tool4-intro p {
+  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  line-height: 1.7;
+  color: inherit;
+  margin-bottom: 1rem;
+}
+
+.tool4-tagline {
+  font-size: 0.8rem !important;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem !important;
+}
+
+.tool4-cta-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  background: var(--black);
+  color: var(--white);
+  margin: 0 -1.5rem -2.5rem;
+  padding: 2.5rem 1.5rem;
+}
+
+.tool4-cta-headline {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.tool4-cta-placeholder {
+  background: #333;
+  aspect-ratio: 64/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.tool4-cta-placeholder span {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: #888;
+  text-align: center;
+}
+
+.tool4-cta-details p {
+  font-size: clamp(0.85rem, 1.1vw, 1rem);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.tool4-cta-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+.tool4-cta-details ul li {
+  font-size: clamp(0.85rem, 1.1vw, 1rem);
+  line-height: 1.5;
+  padding-left: 1.75rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.tool4-cta-details ul li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+}
+
 /* ============================================
    RESPONSIVE
    ============================================ */
@@ -1557,6 +1652,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .tool2-cta-strip { grid-template-columns: 1fr; }
   .tool3-intro { max-width: 100%; }
   .tool3-principles { padding-left: 0; }
+  .tool4-intro { max-width: 100%; padding-left: 0; }
+  .tool4-cta-strip { grid-template-columns: 1fr; }
   .members-grid { grid-template-columns: 1fr; }
   .member-card--consortium { grid-template-columns: 1fr; }
   .members-grid--advisory { grid-template-columns: 1fr; }
