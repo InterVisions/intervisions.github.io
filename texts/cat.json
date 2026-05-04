@@ -3,7 +3,7 @@
 
   "menu-tools-title": "Eines",
   "menu-team-title": "El Nostre Equip",
-  "menu-tool-guidelines": "Guies d'Avaluació d'Impacte Interseccional",
+  "menu-tool-guidelines": "Directrius per a l'Avaluació d'Impacte Interseccional",
   "menu-tool-audit": "Eines d'Auditoria",
   "menu-tool-workshops": "Tallers Participatius",
   "menu-tool-benchmark": "Benchmark",
@@ -67,7 +67,7 @@
   "tool1-h4-framework": "Marc Interseccional",
   "tool1-p2": "El marc interseccional proposat va més enllà d'una simple revisió tècnica de riscos. Emfatitza com les desigualtats estructurals —relacionades amb el gènere, la raça, la classe, la capacitat o l'origen, entre d'altres— poden reproduir-se o amplificar-se en la creació i implementació de tecnologies d'IA.",
   "tool1-p3": "L'objectiu és convertir l'avaluació d'impacte en una pràctica transformadora que qüestioni i modifiqui aquestes dinàmiques, promovent resultats més justos i equitatius.",
-  "tool1-download": "Descarregar Guies →",
+  "tool1-download": "Descarregar Directrius →",
   "tool1-download-soon": "Descàrrega pròximament",
   "tool2-p1": "Les Eines d'Auditoria estan dissenyades per avaluar els biaixos interseccionals en els models fundacionals de visió i llenguatge.",
   "tool2-p1b": "El seu objectiu és fer accessible l'auditoria de sistemes d'IA a persones i organitzacions que generalment queden excloses d'aquests processos tècnics, amb especial atenció a les persones més afectades pels impactes de la IA.",
@@ -104,7 +104,7 @@
 
   "team-page-hero": "Un equip multidisciplinari que reuneix tecnòlogues feministes, investigadores, i coordinadores de participació.",
   "team-page-intro": "InterVisions reuneix investigadores, tecnòlogues i organitzadores comunitàries de diferents disciplines i institucions, unides pel compromís de construir sistemes d'IA més justos.",
-  "team-wg-guidelines-title": "Grup de Treball de Guies",
+  "team-wg-guidelines-title": "Grup de Treball",
   "team-wg-workshops-title": "Grup de Treball de Tallers Participatius",
 
   "member-ec-bio": "<p>Eva Cruells López és llicenciada en Psicologia i té un Màster en Polítiques Públiques i Socials. La seva trajectòria se centra especialment en la intersecció entre feminisme, tecnopolítica i drets digitals, amb un enfocament en la lluita contra les violències digitals i la promoció de la sobirania tecnològica des d'una perspectiva feminista.</p><p>Ha desenvolupat recerca i acció en l'àmbit dels gèneres i les tecnologies, impulsant iniciatives tecnopolítiques i comunitàries orientades a la transformació social amb una mirada interseccional. Ha treballat en el disseny i implementació de polítiques públiques feministes i d'igualtat, així com en l'abordatge de les violències masclistes, també en entorns digitals.</p><p>Ha estat responsable de diversos àmbits a la Fundació SURT, tècnica a l'European Women's Lobby i consultora en polítiques d'igualtat. Al 2006 cocrea la col·lectiva ciberfeminista Donestech i al 2020 és co-impulsora de Fembloc, la línia feminista d'atenció a les violències digitals. Actualment és co-coordinadora del SIE de violències masclistes digitals.</p>",
