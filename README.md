@@ -54,12 +54,14 @@ Push to a `gh-pages` branch or configure GitHub Pages to serve from `main` branc
 
 ## TODO
 
-- [ ] Replace `[Team photo]` placeholder in Tools section with real image
-- [ ] Add real team member photos to `images/team/`
 - [ ] Replace Formspree form ID in `index.html`
 - [ ] Add real resource cards content
-- [ ] Add video embed (replace video placeholder in homepage)
-- [ ] Add real EU logo image
-- [ ] Add Open Graph / meta tags for social sharing
 - [ ] Add `favicon.ico`
-- [ ] Translate to CAT and CAST (duplicate pages or use i18n JS library)
+
+
+
+## Funding Acknowledgement
+
+![Co-funded by the European Union](eu-funded.png)
+
+Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.
