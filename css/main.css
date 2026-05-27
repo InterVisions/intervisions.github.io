@@ -1096,7 +1096,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   gap: 2rem;
   align-items: start;
   padding: 2rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.15);
+  border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 .member-card--consortium:last-child { border-bottom: none; }
 
@@ -1134,16 +1134,16 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
-  border-top: 1px solid rgba(0,0,0,0.15);
-  border-left: 1px solid rgba(0,0,0,0.15);
+  border-top: 2px solid rgba(0,0,0,0.2);
+  border-left: 2px solid rgba(0,0,0,0.2);
 }
 
 .member-card--advisory {
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  border-right: 1px solid rgba(0,0,0,0.15);
-  border-bottom: 1px solid rgba(0,0,0,0.15);
+  border-right: 2px solid rgba(0,0,0,0.2);
+  border-bottom: 2px solid rgba(0,0,0,0.2);
 }
 
 .member-card--advisory .member-name {
