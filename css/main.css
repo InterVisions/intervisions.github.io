@@ -655,7 +655,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .form-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
   align-items: stretch;
 }
 
@@ -663,18 +663,20 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 2rem;
+  padding-left: 15%;
 }
 
 .form-left .form-input {
-  width: 50%;
+  width: 65%;
 }
 
 .form-right {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding-right: 20%;
 }
 
 .form-input,
