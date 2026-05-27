@@ -664,7 +664,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .form-left .form-input {
@@ -695,8 +695,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .form-submit {
   width: 100%;
-  background: var(--black);
-  color: var(--white);
+  background: transparent;
+  color: var(--black);
   font-family: var(--font);
   font-size: 0.85rem;
   font-weight: 700;
@@ -708,8 +708,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   transition: background 0.15s, color 0.15s;
 }
 .form-submit:hover {
-  background: transparent;
-  color: var(--black);
+  background: var(--black);
+  color: var(--white);
 }
 
 .form-thankyou {
