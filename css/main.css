@@ -466,7 +466,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .section-intro {
   font-size: clamp(1.2rem, 1.75vw, 1.85rem);
   color: rgba(0,0,0,0.9);
-  line-height: 1.7;
+  line-height: 1.2;
 }
 
 /* ============================================
@@ -530,7 +530,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .accordion-content p {
   font-size: 1.1rem;
-  line-height: 1.75;
+  line-height: 1.2;
   max-width: 70ch;
   color: var(--black);
 }
@@ -733,7 +733,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .form-thankyou-text {
   font-size: 0.95rem;
   color: #333;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 /* ============================================
@@ -777,7 +777,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .resource-title {
   font-size: 0.95rem;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .resource-author {
@@ -787,7 +787,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .resource-description {
   font-size: 0.82rem;
-  line-height: 1.6;
+  line-height: 1.2;
   color: #333;
   flex: 1;
 }
@@ -996,7 +996,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   color: var(--white);
   font-size: clamp(2.1rem, 3.75vw, 3rem);
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.2;
   margin-left: clamp(5rem, 21vw, 15rem);
   max-width: 55%;
 }
@@ -1070,7 +1070,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 .member-bio {
   font-size: 0.78rem;
-  line-height: 1.6;
+  line-height: 1.2;
   color: var(--black);
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -1110,7 +1110,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .member-card--consortium .member-name {
   font-size: clamp(1.4rem, 2.3vw, 1.8rem);
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.2;
   text-align: right;
 }
 
@@ -1200,7 +1200,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool-text p {
   font-size: 0.9rem;
-  line-height: 1.75;
+  line-height: 1.2;
   color: #333;
   margin-bottom: 0.75rem;
 }
@@ -1211,7 +1211,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 .tool-text ul li {
   font-size: 0.85rem;
-  line-height: 1.7;
+  line-height: 1.2;
   color: #333;
   margin-bottom: 0.3rem;
 }
@@ -1262,7 +1262,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool1-text p {
   font-size: clamp(1.2rem, 1.75vw, 1.85rem);
-  line-height: 1.7;
+  line-height: 1.2;
   color: inherit;
   margin-bottom: 1rem;
 }
@@ -1315,7 +1315,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool2-intro p {
   font-size: clamp(1.2rem, 1.75vw, 1.85rem);
-  line-height: 1.7;
+  line-height: 1.2;
   color: inherit;
   margin-bottom: 1rem;
 }
@@ -1342,7 +1342,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool2-methodology p {
   font-size: clamp(1.2rem, 1.75vw, 1.85rem);
-  line-height: 1.7;
+  line-height: 1.2;
 }
 
 .tool2-cta-strip {
@@ -1403,7 +1403,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .tool2-repo-line {
   font-size: 0.72rem;
   color: #aaa;
-  line-height: 1.7;
+  line-height: 1.2;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -1420,7 +1420,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool2-cta-details p {
   font-size: clamp(0.85rem, 1.1vw, 1rem);
-  line-height: 1.6;
+  line-height: 1.2;
   margin-bottom: 0.75rem;
 }
 
@@ -1438,7 +1438,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool2-cta-details ul li {
   font-size: clamp(0.85rem, 1.1vw, 1rem);
-  line-height: 1.5;
+  line-height: 1.2;
   padding-left: 1.75rem;
   margin-bottom: 0.5rem;
   position: relative;
@@ -1465,7 +1465,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool3-intro p {
   font-size: clamp(1.2rem, 1.75vw, 1.85rem);
-  line-height: 1.7;
+  line-height: 1.2;
   color: inherit;
   margin-bottom: 1rem;
 }
@@ -1514,7 +1514,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool3-principles p {
   font-size: clamp(1.2rem, 1.75vw, 1.85rem);
-  line-height: 1.7;
+  line-height: 1.2;
   color: inherit;
   margin-bottom: 1rem;
 }
@@ -1536,7 +1536,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool3-principles ul li {
   font-size: clamp(1.2rem, 1.75vw, 1.85rem);
-  line-height: 1.6;
+  line-height: 1.2;
   padding-left: 2rem;
   margin-bottom: 0.5rem;
   position: relative;
@@ -1563,7 +1563,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool4-intro p {
   font-size: clamp(1.2rem, 1.75vw, 1.85rem);
-  line-height: 1.7;
+  line-height: 1.2;
   color: inherit;
   margin-bottom: 1rem;
 }
@@ -1615,7 +1615,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool4-cta-details p {
   font-size: clamp(0.85rem, 1.1vw, 1rem);
-  line-height: 1.6;
+  line-height: 1.2;
   margin-bottom: 0.75rem;
 }
 
@@ -1627,7 +1627,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool4-cta-details ul li {
   font-size: clamp(0.85rem, 1.1vw, 1rem);
-  line-height: 1.5;
+  line-height: 1.2;
   padding-left: 1.75rem;
   margin-bottom: 0.5rem;
   position: relative;
