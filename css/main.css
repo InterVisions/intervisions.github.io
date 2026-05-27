@@ -356,7 +356,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .hero-callout {
   align-self: flex-end;
-  width: 32%;
+  width: 30%;
   margin-right: clamp(1rem, 3vw, 2.5rem);
   border-top: 5px solid var(--white);
   border-bottom: 5px solid var(--white);
