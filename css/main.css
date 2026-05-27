@@ -1567,6 +1567,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   max-width: 55%;
   padding-left: 8%;
   padding-top: 6rem;
+  padding-bottom: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -1610,20 +1611,26 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool4-cta-placeholder {
   background: #333;
-  aspect-ratio: 64/9;
+  aspect-ratio: 1/1;
+  width: 60%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .tool4-cta-placeholder span {
-  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-size: clamp(3rem, 6vw, 6rem);
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.1;
   color: #888;
   text-align: center;
+}
+
+.tool4-cta-details {
+  align-self: center;
 }
 
 .tool4-cta-details p {
