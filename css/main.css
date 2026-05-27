@@ -1360,6 +1360,10 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   margin: 2.5rem -1.5rem -2.5rem;
   padding: 2.5rem 1.5rem;
 }
+.tool2-cta-strip p,
+.tool2-cta-strip li {
+  color: var(--white);
+}
 
 .tool2-cta-headline {
   font-size: clamp(2rem, 4vw, 3.5rem);
@@ -1424,7 +1428,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .tool2-cta-details p {
-  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 0.75rem;
 }
@@ -1442,7 +1446,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .tool2-cta-details ul li {
-  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  font-size: 1.5rem;
   line-height: 1.2;
   padding-left: 1.75rem;
   margin-bottom: 0.5rem;
@@ -1591,6 +1595,10 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   margin: 0 -1.5rem -2.5rem;
   padding: 2.5rem 1.5rem;
 }
+.tool4-cta-strip p,
+.tool4-cta-strip li {
+  color: var(--white);
+}
 
 .tool4-cta-headline {
   font-size: clamp(2rem, 4vw, 3.5rem);
@@ -1619,7 +1627,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .tool4-cta-details p {
-  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 0.75rem;
 }
@@ -1631,7 +1639,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .tool4-cta-details ul li {
-  font-size: clamp(1.2rem, 1.75vw, 1.85rem);
+  font-size: 1.5rem;
   line-height: 1.2;
   padding-left: 1.75rem;
   margin-bottom: 0.5rem;
