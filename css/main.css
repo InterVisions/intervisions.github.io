@@ -629,8 +629,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   transition: color 0.15s;
 }
 .tools-list a:hover .tools-arrow {
-  background: var(--black);
-  color: var(--yellow);
+  color: inherit;
 }
 
 /* ============================================
