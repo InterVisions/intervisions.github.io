@@ -310,15 +310,18 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   width: auto;
   display: block;
   object-fit: contain;
+  align-self: flex-start;
 }
 
 .participant-logo {
-  width: 120px;
-  height: auto;
-  max-height: 50px;
+  height: 44px;
+  width: auto;
+  max-width: 150px;
   display: block;
   object-fit: contain;
 }
+.participant-logo[alt="ALIA Investigació"] { height: 32px; }
+.participant-logo[alt="Diputació Barcelona"] { height: 56px; }
 
 /* ============================================
    HERO SECTION
