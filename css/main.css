@@ -688,12 +688,19 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   padding: 0.75rem 1rem;
   border: 2px solid var(--black);
   background: transparent;
+  color: var(--black);
   width: 100%;
   outline: none;
   transition: background 0.15s;
 }
+.form-input {
+  border: none;
+  border-bottom: 2px solid var(--black);
+}
 .form-input:focus,
 .form-textarea:focus { background: rgba(255,255,255,0.5); }
+.form-input::placeholder,
+.form-textarea::placeholder { color: var(--black); opacity: 1; }
 
 .form-textarea { resize: vertical; min-height: 240px; flex: 1; }
 
