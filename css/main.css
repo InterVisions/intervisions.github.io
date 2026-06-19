@@ -1022,9 +1022,11 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 /* Team member cards in expanded accordion */
 .org-group {
-  padding: 2rem 1.5rem;
+  padding: 2rem 0;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
   background: var(--bg);
-  border-top: 1px solid rgba(0,0,0,0.15);
+  border-top: 5px solid var(--black);
 }
 
 .org-title {
@@ -1032,7 +1034,9 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   font-weight: 300;
   margin-bottom: 1.5rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid rgba(0,0,0,0.15);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-bottom: 5px solid var(--black);
 }
 
 .members-grid {
@@ -1072,7 +1076,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .member-info {}
 .member-name {
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 300;
   margin-bottom: 0.35rem;
 }
 .member-bio {
@@ -1090,7 +1094,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   gap: 0.75rem;
 }
 .member-links a {
-  font-size: 0.75rem;
+  font-size: 16px;
   font-weight: 600;
   color: var(--black);
   border-bottom: 1px solid var(--black);
@@ -1109,14 +1113,14 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   grid-template-columns: 1fr minmax(150px, 200px) 1fr;
   gap: 2rem;
   align-items: start;
-  padding: 2rem 0;
-  border-bottom: 2px solid rgba(0,0,0,0.2);
+  padding: 2rem 1.5rem;
+  border-bottom: 1px solid var(--black);
 }
 .member-card--consortium:last-child { border-bottom: none; }
 
 .member-card--consortium .member-name {
   font-size: clamp(1.4rem, 2.3vw, 1.8rem);
-  font-weight: 700;
+  font-weight: 300;
   line-height: 1.2;
   text-align: right;
 }
@@ -1148,21 +1152,23 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
-  border-top: 2px solid rgba(0,0,0,0.2);
-  border-left: 2px solid rgba(0,0,0,0.2);
+  border-top: 1px solid var(--black);
+  border-left: 1px solid var(--black);
 }
 
 .member-card--advisory {
   display: flex;
   flex-direction: column;
   padding: 1.5rem;
-  border-right: 2px solid rgba(0,0,0,0.2);
-  border-bottom: 2px solid rgba(0,0,0,0.2);
+  border-right: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
 }
+.member-card--advisory:nth-child(odd)  { padding-left: 7.5rem; }
+.member-card--advisory:nth-child(even) { padding-right: 7.5rem; }
 
 .member-card--advisory .member-name {
   font-size: clamp(1.4rem, 2.3vw, 1.8rem);
-  font-weight: 700;
+  font-weight: 300;
   margin-bottom: 0.75rem;
 }
 
