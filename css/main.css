@@ -1700,6 +1700,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .tool2-methodology { margin-left: 0; max-width: 100%; }
   .tool2-methodology h4 { font-size: 1.4rem; }
   .tool2-cta-strip { grid-template-columns: 1fr; }
+  .tool2-cta-main, .tool2-cta-details { min-width: 0; }
   .tool3-intro { max-width: 100%; }
   .tool3-principles { padding-left: 0; }
   .tool4-intro { max-width: 100%; padding-left: 0; }
