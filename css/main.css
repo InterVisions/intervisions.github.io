@@ -1708,6 +1708,8 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .members-grid { grid-template-columns: 1fr; }
   .member-card--consortium { grid-template-columns: 1fr; }
   .members-grid--advisory { grid-template-columns: 1fr; }
+  .member-card--advisory:nth-child(odd)  { padding-left: 0; }
+  .member-card--advisory:nth-child(even) { padding-right: 0; }
 }
 
 @media (max-width: 480px) {
