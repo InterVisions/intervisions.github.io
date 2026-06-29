@@ -1694,9 +1694,11 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .menu-col:first-child { border-right: none; border-bottom: 1px solid #333; }
   .tool-content { grid-template-columns: 1fr; }
   .tool1-text { padding-left: 0; }
+  .tool1-text h4 { font-size: 1.4rem; }
   .tool1-image-strip { grid-template-columns: 1fr; margin: 1.5rem -1.5rem; }
-  .tool2-intro { max-width: 100%; }
-  .tool2-methodology { margin-left: 0; }
+  .tool2-intro { max-width: 100%; padding-left: 0; }
+  .tool2-methodology { margin-left: 0; max-width: 100%; }
+  .tool2-methodology h4 { font-size: 1.4rem; }
   .tool2-cta-strip { grid-template-columns: 1fr; }
   .tool3-intro { max-width: 100%; }
   .tool3-principles { padding-left: 0; }
