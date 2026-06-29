@@ -495,7 +495,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .accordion-trigger:hover { filter: brightness(0.93); }
 
 .accordion-trigger h3 {
-  font-size: clamp(2.9rem, 5.2vw, 4.2rem);
+  font-size: clamp(1.5rem, 5.2vw, 4.2rem);
   font-weight: 300;
   color: var(--black);
   line-height: 1.1;
@@ -508,7 +508,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .acc-icon {
-  font-size: clamp(2.9rem, 5.2vw, 4.2rem);
+  font-size: clamp(1.5rem, 5.2vw, 4.2rem);
   font-weight: 300;
   line-height: 1;
   color: var(--black);
