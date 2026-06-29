@@ -1701,6 +1701,9 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .tool2-methodology h4 { font-size: 1.4rem; }
   .tool2-cta-strip { grid-template-columns: 1fr; }
   .tool2-cta-main, .tool2-cta-details { min-width: 0; }
+  .tool2-cta-details p, .tool2-cta-details ul li { font-size: 1rem; }
+  .tool4-cta-details p, .tool4-cta-details ul li { font-size: 1rem; }
+  .tool4-tagline { font-size: 1.4rem !important; }
   .tool3-intro { max-width: 100%; }
   .tool3-principles { padding-left: 0; }
   .tool4-intro { max-width: 100%; padding-left: 0; }
