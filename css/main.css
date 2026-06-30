@@ -1494,6 +1494,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 .tool3-carousel {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0 -1.5rem 2.5rem;
 }
@@ -1528,6 +1529,30 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 }
 
 .carousel-btn:hover { opacity: 0.5; }
+
+.carousel-dots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 0 0.25rem;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.25;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: opacity 0.2s;
+}
+
+.carousel-dot.active { opacity: 1; }
+.carousel-dot:hover:not(.active) { opacity: 0.6; }
 
 .tool3-principles {
   padding-left: 40%;
