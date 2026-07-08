@@ -1595,6 +1595,14 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   left: 0;
 }
 
+.tool3-docs {
+  padding-left: 40%;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
 /* Tool 4 — Benchmark layout */
 .tool4-layout {
   display: flex;
@@ -1731,6 +1739,7 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .tool4-tagline { font-size: 1.4rem !important; }
   .tool3-intro { max-width: 100%; }
   .tool3-principles { padding-left: 0; }
+  .tool3-docs { padding-left: 0; }
   .tool4-intro { max-width: 100%; padding-left: 0; }
   .tool4-cta-strip { grid-template-columns: 1fr; }
   .members-grid { grid-template-columns: 1fr; }

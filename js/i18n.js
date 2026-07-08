@@ -40,6 +40,11 @@
       const key = el.getAttribute('data-i18n-placeholder');
       if (texts[key] !== undefined) el.placeholder = texts[key];
     });
+    // Anchor href
+    document.querySelectorAll('[data-i18n-href]').forEach(el => {
+      const key = el.getAttribute('data-i18n-href');
+      if (texts[key] !== undefined) el.href = texts[key];
+    });
   }
 
   function updateLangLinks(lang) {
