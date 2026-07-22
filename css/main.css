@@ -1504,14 +1504,18 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   overflow: hidden;
 }
 
-.carousel-track img {
-  width: 100%;
-  height: clamp(260px, 40vw, 520px);
-  object-fit: cover;
-  display: none;
+.carousel-strip {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.45s ease-in-out;
+  will-change: transform;
 }
 
-.carousel-track img.carousel-active {
+.carousel-strip img {
+  height: clamp(260px, 40vw, 520px);
+  width: auto;
+  flex-shrink: 0;
   display: block;
 }
 
