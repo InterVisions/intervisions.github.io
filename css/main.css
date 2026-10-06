@@ -1464,6 +1464,45 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   transform: translateX(4px);
 }
 
+.tool2-guides {
+  margin-top: 2rem;
+}
+.tool2-guides-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 0.75rem;
+}
+.tool2-guides-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.tool2-guide-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
+  padding: 0.5rem 0.9rem;
+  transition: background 0.15s, color 0.15s;
+}
+.tool2-guide-link:hover,
+.tool2-guide-link:focus-visible {
+  background: var(--yellow);
+  color: var(--black);
+}
+.tool2-guide-tag {
+  font-size: 0.7em;
+  opacity: 0.75;
+}
+
 .tool2-cta-details p {
   font-size: 1.5rem;
   line-height: 1.2;
