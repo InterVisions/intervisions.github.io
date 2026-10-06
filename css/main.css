@@ -1480,7 +1480,9 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   flex-wrap: wrap;
   gap: 0.75rem;
 }
-.tool2-guide-link {
+.doc-link {
+  --doc-fg: var(--yellow);
+  --doc-hover-fg: var(--black);
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -1488,17 +1490,28 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--yellow);
-  border: 1px solid var(--yellow);
+  color: var(--doc-fg);
+  border: 1px solid var(--doc-fg);
   padding: 0.5rem 0.9rem;
   transition: background 0.15s, color 0.15s;
 }
-.tool2-guide-link:hover,
-.tool2-guide-link:focus-visible {
-  background: var(--yellow);
-  color: var(--black);
+.doc-link:hover,
+.doc-link:focus-visible {
+  background: var(--doc-fg);
+  color: var(--doc-hover-fg);
 }
-.tool2-guide-tag {
+/* Negative variant for colored sections: black button, section color as text */
+.doc-link--dark {
+  --doc-fg: var(--bg, var(--yellow));
+  --doc-hover-fg: var(--black);
+  background: var(--black);
+  border-color: var(--black);
+}
+.doc-link--dark:hover,
+.doc-link--dark:focus-visible {
+  border-color: var(--black);
+}
+.doc-link-tag {
   font-size: 0.7em;
   opacity: 0.75;
 }
