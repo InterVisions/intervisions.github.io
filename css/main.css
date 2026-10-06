@@ -1431,13 +1431,37 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   text-overflow: ellipsis;
 }
 
-.tool2-cta-main a {
-  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+.tool2-cta-main a.tool2-gh-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: clamp(1.35rem, 2.1vw, 1.75rem);
   font-weight: 700;
   letter-spacing: 0.04em;
+  line-height: 1.2;
   text-transform: uppercase;
-  color: var(--white);
-  border-bottom: 1px solid currentColor;
+  background: var(--white);
+  color: var(--black);
+  border: 2px solid var(--white);
+  padding: 0.85rem 1.4rem;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.tool2-cta-main a.tool2-gh-btn:hover,
+.tool2-cta-main a.tool2-gh-btn:focus-visible {
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
+.tool2-gh-icon {
+  width: 1.4em;
+  height: 1.4em;
+  flex-shrink: 0;
+  fill: currentColor;
+}
+.tool2-gh-arrow {
+  transition: transform 0.2s;
+}
+.tool2-gh-btn:hover .tool2-gh-arrow {
+  transform: translateX(4px);
 }
 
 .tool2-cta-details p {
