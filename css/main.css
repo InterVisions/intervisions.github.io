@@ -1750,6 +1750,74 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   text-align: center;
 }
 
+.tool4-dataset {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 0 8% 4rem;
+}
+
+.tool4-dataset-block {
+  border-left: 2px solid currentColor;
+  padding-left: 2rem;
+}
+
+.tool4-dataset-block h4 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.tool4-dataset-block p {
+  font-size: clamp(1.05rem, 1.3vw, 1.35rem);
+  line-height: 1.35;
+  margin-bottom: 1rem;
+}
+
+.tool4-request-text {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.tool4-cta-main a.tool4-request-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: clamp(1.35rem, 2.1vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  background: var(--white);
+  color: var(--black);
+  border: 2px solid var(--white);
+  padding: 0.85rem 1.4rem;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.tool4-cta-main a.tool4-request-btn:hover,
+.tool4-cta-main a.tool4-request-btn:focus-visible {
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
+.tool4-request-arrow { transition: transform 0.2s; }
+.tool4-request-btn:hover .tool4-request-arrow { transform: translateX(4px); }
+
+.tool4-request-mail {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.tool4-request-mail a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
 .tool4-cta-details {
   align-self: center;
 }
@@ -1817,6 +1885,11 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
   .tool3-docs { padding-left: 0; }
   .tool4-intro { max-width: 100%; padding-left: 0; }
   .tool4-cta-strip { grid-template-columns: 1fr; }
+  .tool4-dataset { grid-template-columns: 1fr; padding: 0 0 3rem; gap: 2rem; }
+  .tool4-dataset-block { padding-left: 1rem; }
+  .tool4-dataset-block h4 { font-size: 1.2rem; }
+  .tool4-request-text { font-size: 1.1rem; }
+  .tool4-cta-main a.tool4-request-btn { font-size: 1.1rem; }
   .members-grid { grid-template-columns: 1fr; }
   .member-card--consortium { grid-template-columns: 1fr; }
   .members-grid--advisory { grid-template-columns: 1fr; }

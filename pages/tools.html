@@ -200,11 +200,33 @@
               <p data-i18n="tool4-p2">Its main indicators make it possible to compare model behavior in terms of fairness and bias mitigation, and to evaluate the social impact of training datasets.</p>
               <p data-i18n="tool4-p3">The benchmark is built on the outcomes of participatory workshops, ensuring that its categories and evaluation criteria reflect the real experiences of affected communities.</p>
             </div>
+            <div class="tool4-dataset">
+              <div class="tool4-dataset-block">
+                <h4 data-i18n="tool4-dataset-title">The InterVisions evaluation dataset (benchmark)</h4>
+                <p data-i18n="tool4-dataset-p1">Most fairness benchmarks for vision-language models only look at paid work. They ask whether a model spreads occupations like “doctor” or “nurse” fairly across groups. The InterVisions dataset looks at the rest of life: care, affection and leisure in public space.</p>
+                <p data-i18n="tool4-dataset-p2">Who shows up when a model searches for a person taking care of a child in a park, an old person exercising in an outdoor gym or a couple walking hand in hand?</p>
+                <p data-i18n="tool4-dataset-p3">The dataset grew out of participatory workshops with communities marginalised along intersecting axes. Their critiques changed it directly. Prompts were reworded, new ones were added, and people they found missing were brought into the images: older adults and children as carers, wheelchair users acting on their own, same-gender couples and families.</p>
+                <p data-i18n="tool4-dataset-p4">The dataset has 939 images across eleven prompts. Each image is annotated for the perceived gender presentation, skin tone and age of the people in it, so a model can be evaluated on whether it finds the right images (utility) and on who it ranks first (fairness).</p>
+              </div>
+              <div class="tool4-dataset-block">
+                <h4 data-i18n="tool4-access-title">Why the data is not public, and how to get your model evaluated</h4>
+                <p data-i18n="tool4-access-p1">The images come from the web. They show identifiable people, including children, who never agreed to be part of a research dataset. Some annotations, read together, could reveal sensitive information such as a perceived same-gender relationship.</p>
+                <p data-i18n="tool4-access-p2">Letting people ask to be removed protects little when they don’t know they are included. So we do not release the images, their URLs or the annotations. We keep only URLs, never names or other identifiers, access is limited to the research team, and we report results only in aggregate.</p>
+                <p data-i18n="tool4-access-p3">We still want the framework to be useful to others, so we offer evaluation on request. Send us the weights of a contrastive image–text model (CLIP-style) compatible with our code, and we will return an aggregate fairness and utility report for your model, without exposing the people in the images. The audit tools, the community-sourced queries and the evaluation code are openly available.</p>
+              </div>
+            </div>
             <div class="tool4-cta-strip">
               <div class="tool4-cta-main">
-                <div class="tool4-cta-placeholder">
-                  <span data-i18n="tool4-cta">More info coming soon</span>
-                </div>
+                <p class="tool4-request-text" data-i18n="tool4-request-text">To request an evaluation, contact us at:</p>
+                <a class="tool4-request-btn" href="mailto:intervisions@donestech.net,lgomez@cvc.uab.cat,sllacer@cvc.uab.cat?subject=InterVisions%20benchmark%20evaluation%20request">
+                  <span data-i18n="tool4-request-btn">Request an evaluation</span>
+                  <span class="tool4-request-arrow" aria-hidden="true">→</span>
+                </a>
+                <ul class="tool4-request-mail">
+                  <li><a href="mailto:intervisions@donestech.net?subject=InterVisions%20benchmark%20evaluation%20request">intervisions@donestech.net</a></li>
+                  <li><a href="mailto:lgomez@cvc.uab.cat?subject=InterVisions%20benchmark%20evaluation%20request">lgomez@cvc.uab.cat</a></li>
+                  <li><a href="mailto:sllacer@cvc.uab.cat?subject=InterVisions%20benchmark%20evaluation%20request">sllacer@cvc.uab.cat</a></li>
+                </ul>
               </div>
               <div class="tool4-cta-details">
                 <p data-i18n="tool4-cta-intro">Its goal is to become a reference standard for AI researchers and developers who want to incorporate justice as a core criterion, rather than an add-on.</p>
