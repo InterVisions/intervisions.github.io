@@ -1806,17 +1806,6 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 .tool4-request-arrow { transition: transform 0.2s; }
 .tool4-request-btn:hover .tool4-request-arrow { transform: translateX(4px); }
 
-.tool4-request-mail {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0;
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-.tool4-request-mail a {
-  color: var(--white);
-  text-decoration: underline;
-}
 
 .tool4-cta-details {
   align-self: center;
@@ -1899,4 +1888,46 @@ button { cursor: pointer; font-family: var(--font); border: none; background: no
 
 @media (max-width: 480px) {
   .footer-top { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+}
+
+.tool4-submit-list {
+  margin: 0 0 1rem 1.25rem;
+  font-size: clamp(1.05rem, 1.3vw, 1.35rem);
+  line-height: 1.35;
+}
+.tool4-submit-list li { margin-bottom: 0.4rem; }
+
+.tool4-links {
+  grid-column: 1 / -1;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 1.5rem;
+}
+.tool4-links-title {
+  font-size: 1.1rem !important;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem !important;
+}
+.tool4-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 3rem;
+}
+.tool4-links a {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.tool4-links a:hover .tool4-link-url,
+.tool4-links a:focus-visible .tool4-link-url { color: var(--yellow); }
+.tool4-link-url {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: underline;
+  overflow-wrap: anywhere;
 }

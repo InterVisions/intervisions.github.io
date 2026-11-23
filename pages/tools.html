@@ -196,8 +196,8 @@
           <div class="tool4-layout">
             <div class="tool4-intro">
               <p class="tool4-tagline" data-i18n="tool4-tagline">Measuring fairness, not just accuracy</p>
-              <p data-i18n="tool4-p1">The Benchmark is a technical tool designed to assess intersectional biases in vision and language foundation models. Unlike conventional benchmarks, which only measure technical performance, this one focuses on algorithmic justice: how models affect diverse people depending on gender, background, age, or other combined identity dimensions.</p>
-              <p data-i18n="tool4-p2">Its main indicators make it possible to compare model behavior in terms of fairness and bias mitigation, and to evaluate the social impact of training datasets.</p>
+              <p data-i18n="tool4-p1">The Benchmark measures how text-to-image retrieval models (CLIP and related vision–language models) treat people of different perceived gender, age and skin tone. Unlike conventional benchmarks, which only measure technical performance, it focuses on algorithmic justice: which people a model finds, and which ones it ranks first, when it searches for images of people in public spaces.</p>
+              <p data-i18n="tool4-p2">Models are compared with two analyses of the groups of people depicted. Difference in performance: how well the model retrieves the relevant images of each group, within the dataset and among 5,000 COCO distractor images. Ranking fairness: how balanced its top results are by perceived gender and skin tone, or by the composition of couples, compared with a random order. The results are published in an open leaderboard.</p>
               <p data-i18n="tool4-p3">The benchmark is built on the outcomes of participatory workshops, ensuring that its categories and evaluation criteria reflect the real experiences of affected communities.</p>
             </div>
             <div class="tool4-dataset">
@@ -206,27 +206,28 @@
                 <p data-i18n="tool4-dataset-p1">Most fairness benchmarks for vision-language models only look at paid work. They ask whether a model spreads occupations like “doctor” or “nurse” fairly across groups. The InterVisions dataset looks at the rest of life: care, affection and leisure in public space.</p>
                 <p data-i18n="tool4-dataset-p2">Who shows up when a model searches for a person taking care of a child in a park, an old person exercising in an outdoor gym or a couple walking hand in hand?</p>
                 <p data-i18n="tool4-dataset-p3">The dataset grew out of participatory workshops with communities marginalised along intersecting axes. Their critiques changed it directly. Prompts were reworded, new ones were added, and people they found missing were brought into the images: older adults and children as carers, wheelchair users acting on their own, same-gender couples and families.</p>
-                <p data-i18n="tool4-dataset-p4">The dataset has 939 images across eleven prompts. Each image is annotated for the perceived gender presentation, skin tone and age of the people in it, so a model can be evaluated on whether it finds the right images (utility) and on who it ranks first (fairness).</p>
+                <p data-i18n="tool4-dataset-p4">The current release (16 November 2026) has 1,203 web images collected for 14 prompts. Each image is annotated for the perceived gender presentation, age and skin tone (on the Fitzpatrick scale) of the people it depicts. All labels are an annotator’s perception of how a person presents, not self-identified attributes.</p>
               </div>
               <div class="tool4-dataset-block">
-                <h4 data-i18n="tool4-access-title">Why the data is not public, and how to get your model evaluated</h4>
-                <p data-i18n="tool4-access-p1">The images come from the web. They show identifiable people, including children, who never agreed to be part of a research dataset. Some annotations, read together, could reveal sensitive information such as a perceived same-gender relationship.</p>
-                <p data-i18n="tool4-access-p2">Letting people ask to be removed protects little when they don’t know they are included. So we do not release the images, their URLs or the annotations. We keep only URLs, never names or other identifiers, access is limited to the research team, and we report results only in aggregate.</p>
-                <p data-i18n="tool4-access-p3">We still want the framework to be useful to others, so we offer evaluation on request. Send us the weights of a contrastive image–text model (CLIP-style) compatible with our code, and we will return an aggregate fairness and utility report for your model, without exposing the people in the images. The audit tools, the community-sourced queries and the evaluation code are openly available.</p>
+                <h4 data-i18n="tool4-access-title">Why the data is not public, and how to submit a model</h4>
+                <p data-i18n="tool4-access-p1">The images come from the web, and they belong to their authors. They show identifiable people, including children, who never agreed to be part of a research dataset. The annotations record perceived characteristics such as skin tone, and some, read together, could reveal sensitive information such as a perceived same-gender relationship.</p>
+                <p data-i18n="tool4-access-p2">Letting people ask to be removed protects little when they don’t know they are included. So we do not release the images, their URLs, the annotations or the embeddings. Access is limited to the research team, and only aggregate numbers are published: no number refers to a single image, and groups with fewer than 10 images are neither shown nor assessed. Each release publishes the SHA-256 hash of the private annotation file, so the numbers can be checked against the exact data they come from.</p>
+                <p data-i18n="tool4-access-p3">We still want the benchmark to be useful to others, so the maintainers evaluate submitted models on the private data, through a manual queue. Open a discussion in the Hugging Face Space (or an issue in the GitHub repository) with:</p>
+                <ul class="tool4-submit-list">
+                  <li data-i18n="tool4-submit-li1">the model name and a public checkpoint (an open_clip architecture and pretrained tag, or a Hugging Face model id);</li>
+                  <li data-i18n="tool4-submit-li2">how to compute its image and text embeddings (the image preprocessing and the tokenizer), if it is not an open_clip model;</li>
+                  <li data-i18n="tool4-submit-li3">a link to its paper or model card.</li>
+                </ul>
+                <p data-i18n="tool4-access-p4">Only models with public weights are accepted, in safetensors format or as a PyTorch state dict that loads with torch.load(weights_only=True). Pickled models and TorchScript archives are refused, because loading them can run arbitrary code. The maintainers compute the model’s embeddings and results privately and add its aggregate numbers to the leaderboard. The evaluation code, the prompts and the datasheet of the dataset are openly available.</p>
               </div>
             </div>
             <div class="tool4-cta-strip">
               <div class="tool4-cta-main">
-                <p class="tool4-request-text" data-i18n="tool4-request-text">To request an evaluation, contact us at:</p>
-                <a class="tool4-request-btn" href="mailto:intervisions@donestech.net,lgomez@cvc.uab.cat,sllacer@cvc.uab.cat?subject=InterVisions%20benchmark%20evaluation%20request">
-                  <span data-i18n="tool4-request-btn">Request an evaluation</span>
+                <p class="tool4-request-text" data-i18n="tool4-request-text">To submit a model, open a discussion in the Hugging Face Space:</p>
+                <a class="tool4-request-btn" href="https://huggingface.co/spaces/IntersectionalVisions/leaderboard/discussions" target="_blank" rel="noopener">
+                  <span data-i18n="tool4-request-btn">Submit a model</span>
                   <span class="tool4-request-arrow" aria-hidden="true">→</span>
                 </a>
-                <ul class="tool4-request-mail">
-                  <li><a href="mailto:intervisions@donestech.net?subject=InterVisions%20benchmark%20evaluation%20request">intervisions@donestech.net</a></li>
-                  <li><a href="mailto:lgomez@cvc.uab.cat?subject=InterVisions%20benchmark%20evaluation%20request">lgomez@cvc.uab.cat</a></li>
-                  <li><a href="mailto:sllacer@cvc.uab.cat?subject=InterVisions%20benchmark%20evaluation%20request">sllacer@cvc.uab.cat</a></li>
-                </ul>
               </div>
               <div class="tool4-cta-details">
                 <p data-i18n="tool4-cta-intro">Its goal is to become a reference standard for AI researchers and developers who want to incorporate justice as a core criterion, rather than an add-on.</p>
@@ -235,6 +236,13 @@
                   <li data-i18n="tool4-li2">Built from data generated through participatory workshops</li>
                   <li data-i18n="tool4-li3">Directly connected to the Audit Tool for a comprehensive evaluation</li>
                   <li data-i18n="tool4-li4">Aimed at becoming an industry standard</li>
+                </ul>
+              </div>
+              <div class="tool4-links">
+                <p class="tool4-links-title" data-i18n="tool4-links-title">Leaderboard and code</p>
+                <ul>
+                  <li><a href="https://huggingface.co/spaces/IntersectionalVisions/leaderboard" target="_blank" rel="noopener"><span data-i18n="tool4-link-hf">Leaderboard on Hugging Face</span><span class="tool4-link-url">huggingface.co/spaces/IntersectionalVisions/leaderboard</span></a></li>
+                  <li><a href="https://github.com/InterVisions/benchmark_leaderboard" target="_blank" rel="noopener"><span data-i18n="tool4-link-gh">Code and data on GitHub</span><span class="tool4-link-url">github.com/InterVisions/benchmark_leaderboard</span></a></li>
                 </ul>
               </div>
             </div>
