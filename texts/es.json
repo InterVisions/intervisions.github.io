@@ -11,6 +11,7 @@
   "menu-team-advisory": "Consejo Asesor",
   "menu-team-working-groups": "Grupos de Trabajo",
   "menu-team-workshops-wg": "Grupo de Trabajo de Talleres Participativos",
+  "menu-team-benchmark-wg": "Grupo de Trabajo del Benchmark",
   "menu-contact-label": "Contacto:",
   "menu-funding-label": "Financiación:",
   "menu-participants-label": "Participantes:",
@@ -58,6 +59,7 @@
   "footer-team-advisory": "Consejo Asesor",
   "footer-team-working-groups": "Grupos de Trabajo",
   "footer-team-workshops-wg": "Grupo de Trabajo de Talleres Participativos",
+  "footer-team-benchmark-wg": "Grupo de Trabajo del Benchmark",
   "footer-privacy": "Política de privacidad",
 
   "tools-page-hero": "Cuatro herramientas creadas por el Proyecto InterVisions, diseñadas para integrar una perspectiva interseccional en diferentes áreas de acción.",
@@ -133,6 +135,7 @@
   "team-page-intro": "InterVisions reúne a investigadoras, tecnólogas y organizadoras comunitarias de diferentes disciplinas e instituciones, unidas por el compromiso de construir sistemas de IA más justos.",
   "team-wg-guidelines-title": "Grupo de Trabajo de Guías",
   "team-wg-workshops-title": "Grupo de Trabajo de Talleres Participativos",
+  "team-wg-benchmark-title": "Grupo de Trabajo del Benchmark",
 
   "member-ec-bio": "<p>Eva Cruells López es licenciada en Psicología y cuenta con un Máster en Políticas Públicas y Sociales. Su trayectoria se centra especialmente en la intersección entre feminismo, tecnopolítica y derechos digitales, con un enfoque en la lucha contra las violencias digitales y la promoción de la soberanía tecnológica desde una perspectiva feminista.</p><p>Ha desarrollado investigación y acción en el ámbito de los géneros y las tecnologías, impulsando iniciativas tecnopolíticas y comunitarias orientadas a la transformación social con una mirada interseccional. Ha trabajado en el diseño e implementación de políticas públicas feministas y de igualdad, así como en el abordaje de las violencias machistas, también en entornos digitales.</p><p>Ha sido responsable de diversos ámbitos en la Fundación SURT, técnica en el European Women's Lobby y consultora en políticas de igualdad. En 2006 co-crea el colectivo ciberfeminista Donestech y en 2020 es co-impulsora de Fembloc, la línea feminista de atención a las violencias digitales. Actualmente es co-coordinadora del SIE de violencias machistas digitales.</p>",
   "member-mo-bio": "<p>Politóloga y jurista que trabaja en la intersección entre tecnología, derecho y justicia social. Contribuye al proyecto europeo InterVisions desde Donestech, donde promueve la inclusión y la equidad en los sistemas de IA, y desarrolla métodos para certificar y documentar la violencia de género y los discursos de odio en línea.</p><p>Anteriormente, lideró la incidencia y el litigio estratégico en la Fundación Eticas, coordinando la coalición Acción por la Justicia Algorítmica para abordar la discriminación algorítmica, las carencias de transparencia y los riesgos sistémicos de la toma de decisiones automatizada. A lo largo de su trayectoria, combina el análisis jurídico, el diseño de políticas y la acción comunitaria, con un enfoque creciente en el litigio estratégico como herramienta para defender el espacio cívico y los derechos humanos.</p>",
@@ -158,6 +161,8 @@
   "member-am-bio": "Adri se licenció en Ingeniería de Datos por la Universidad Autónoma de Barcelona en 2022. Obtuvo el máster en 2023 y actualmente es candidato a doctorado en el Grupo de Análisis Documental del Centro de Visión por Computador. Sus intereses de investigación se centran en las áreas del patrimonio cultural, el análisis de grafos, la recuperación de información y la gobernanza de datos.",
   "member-gf-bio": "Coordinadora de participación en InterVisions y consultora freelance en participación, gobernanza democrática de la IA y derechos humanos. Actualmente trabajando en la transferencia de conocimiento académico a policymakers para diferentes proyectos de investigación.",
   "member-ab-bio": "Coordinadora de participación en InterVisions y miembro de Radical Data, trabajando en proyectos estratégicos y creativos en la intersección del arte, la tecnología y la innovación social.",
+  "member-ad-bio": "Graduada en Filosofía y con un máster en Humanidades y Patrimonio Digitales, trabaja entre la investigación humanística, las tecnologías digitales y la comunicación. Anotó las imágenes del benchmark de InterVisions y aportó observaciones que dieron forma a su diseño.",
+  "member-bl-bio": "Integradora social y estudiante de Educación Social, trabaja en intervenciones socioeducativas atentas a la diversidad en la Fundació ACIDH y tiene formación en captación y tratamiento de la imagen. Anotó las imágenes del benchmark de InterVisions y aportó observaciones que dieron forma a su diseño.",
 
   "privacy-page-hero": "Política de Privacidad",
   "privacy-page-text": "Esta página contendrá la política de privacidad del proyecto InterVisions. Contenido pendiente de añadir."
